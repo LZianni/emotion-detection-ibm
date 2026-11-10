@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Emotion Detection with Watson NLP</title>
+  <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+  <main>
+    <h1>Emotion Detection</h1>
+    <p>Analyze the emotions expressed in an English sentence using Watson NLP.</p>
+    <form id="emotion-form">
+      <label for="text">Text to analyze</label>
+      <textarea id="text" name="textToAnalyze" rows="4" placeholder="I think I am having fun"></textarea>
+      <button type="submit">Analyze emotion</button>
+    </form>
+    <section aria-live="polite"><h2>Result</h2><p id="result">Enter a sentence to begin.</p></section>
+  </main>
+  <script src="/static/script.js"></script>
+</body>
+</html>
